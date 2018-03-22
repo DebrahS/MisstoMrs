@@ -16,3 +16,7 @@ a {
 ul li a {
   color: pink;
 }
+
+carousel img {
+     width: 100%
+}
