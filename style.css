@@ -15,8 +15,28 @@ a {
 
 ul li a {
   color: pink;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
 }
 
 carousel img {
      width: 100%
+}
+
+h1 {
+  text-align: center;
+  margin: 70px 0px 70px 0px;
+  color: pink;
+  font-family: 'Poiret One', cursive;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+li {
+    border-right: 0.5px solid #ffc0cb;
 }
