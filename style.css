@@ -17,6 +17,7 @@ ul li a {
   color: pink;
   font-family: 'Poiret One', cursive;
   font-size: 20px;
+  margin: 30px 30px 30px 30px;
 }
 
 carousel img {
@@ -37,24 +38,26 @@ h1 {
     width: 50%;
 }
 
-li {
-    border-right: 0.5px solid #ffc0cb;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+fa-instagram {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .fa:hover {
     opacity: 0.7;
-}
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
+    }
+
+.fa-facebook {
+  padding: 40px;
+  fontsize: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
