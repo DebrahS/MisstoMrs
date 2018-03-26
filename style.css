@@ -42,26 +42,41 @@ h1 {
     width: 15%;
 }
 
-fa-instagram {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 2px;
 }
 
 .fa:hover {
     opacity: 0.7;
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-    }
+}
 
 .fa-facebook {
-  padding: 40px;
-  fontsize: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+ background: #125688;
+ color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
 }
