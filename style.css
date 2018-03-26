@@ -15,9 +15,9 @@ a {
 
 
 ul li a {
-  color: pink;
-  font-family: 'Poiret One', cursive;
-  font-size: 20px;
+  color: #bfbfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
   margin: -50px 30px 30px 90px;
 }
 
@@ -28,10 +28,10 @@ carousel img {
 
 h1 {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   margin: 70px 0px 70px 0px;
   color: pink;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
 }
 
