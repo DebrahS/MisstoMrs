@@ -96,19 +96,13 @@ h1 {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
-}
-
-/* homepage thumbnail details */
-.container {
-  position: relative;
-  width: 50%;
 }
 
 .image {
