@@ -118,6 +118,11 @@ h1 {
   transition: .5s ease;
 }
 
+.bottomimage1 {
+  height: 50;
+  width: 40 
+}
+
 .container:hover .overlay {
   height: 100%;
 }
