@@ -22,7 +22,12 @@ ul li a {
 }
 
 #nav {
-  padding-left: 370px;
+  padding-left: 450px;
+}
+
+.test {
+ background-image: url('images/ringdesign2.png');
+ background-size: contain;
 }
 
 p {
@@ -44,6 +49,27 @@ h1 {
   color: pink;
   font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+}
+
+.aboutus {
+  margin-top: 40px;
+  width: 160px;
+  height: 215px;
+}
+
+.Members {
+  text-align: center;
 }
 
 .center {
@@ -105,15 +131,11 @@ h1 {
   height: auto;
 }
 
-<<<<<<< HEAD
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
-=======
-/* homepage thumbnail details */
->>>>>>> bac1c318d3732c5fa1bd1d7975b5fe267c858665
 
 
 /* put a ring on it image layout */
