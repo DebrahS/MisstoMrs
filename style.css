@@ -1,0 +1,200 @@
+  /*ul {
+  padding: 50px;
+  background: white;
+  }
+
+  li {
+  display: block;
+  padding: 10px; 10px; 0px; 10px;
+  }
+
+  a {
+  color: grey;
+  }*/
+
+/* nav bar */
+
+ul li a {
+  color: #bfbfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin: -50px -40px 30px 30px;
+}
+
+#nav {
+  padding-left: 450px;
+}
+
+.test {
+ background-image: url('images/ringdesign2.png');
+ background-size: contain;
+}
+
+p {
+  color: #bfbfbf;
+}
+
+a {
+  text-align: center;
+}
+
+carousel img {
+     width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 18px;
+  margin: 70px 0px 70px 0px;
+  color: pink;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: pink;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+}
+
+.aboutus {
+  margin-top: 40px;
+  width: 160px;
+  height: 215px;
+}
+
+.Members {
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+/* social buttons */
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+ background: #125688;
+ color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* put a ring on it image layout */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #bfbfbf;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

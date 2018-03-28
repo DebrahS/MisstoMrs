@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Wedding Runway</title>
+  <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+
+  <header>
+    <img src="images/logo.png" alt="misstomrs" class="center">
+    <h1>The Wedding Runway</h1>
+    <ul class="nav navbar-nav" id="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="AboutPage.html">About</a></li>
+      <li><a href="PutARingOnIt.html">Put A Ring On It</a></li>
+      <li><a href="WeddingRunway.html">The Wedding Runway</a> </li>
+      <li><a href="#">Bridal Glam</a> </li>
+    </ul>
+  </header>
+
+ <div class="header" id="myHeader">
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+ </div>
+
+ </head>
+
+ <body>
+
+  <!-- Photo Grid -->
+  <div class="row">
+    <div class="column">
+      <img src="images/beautybride.jpg" style="width:100%">
+      <img src="images/rings/bridesmaidssister.jpg" style="width:100%">
+      <img src="images/rings/dress1homepage.jpg" style="width:100%">
+      <img src="images/rings/dresses1.jpg" style="width:100%">
+      <img src="images/rings/littlebrides.jpg" style="width:100%">
+      <img src="images/rings/nudedress.jpg" style="width:100%">
+      <img src="images/rosesproposal.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/bride.jpg" style="width:100%">
+      <img src="images/charishair.jpg" style="width:100%">
+      <img src="images/couple.jpg" style="width:100%">
+      <img src="images/threedresses.jpg" style="width:100%">
+      <img src="images/weddingdress.jpg" style="width:100%">
+      <img src="images/greekproposal.jpg" style="width:100%">
+      <img src="images/engagedcollage.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/nigerianbride.jpg" style="width:100%">
+      <img src="images/sideprofile.jpg" style="width:100%">
+      <img src="images/threedresses.jpg" style="width:100%">
+      <img src="images/weddingdress.jpg" style="width:100%">
+      <img src="images/dress1homepage.jpg" style="width:100%">
+      <img src="images/littlebrides.jpg" style="width:100%">
+      <img src="images/daddysgirl.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/bridesmaids.jpg" style="width:100%">
+      <img src="images/indian.jpg" style="width:100%">
+      <img src="images/threedresses.jpg" style="width:100%">
+      <img src="images/daddysgirl.jpg" style="width:100%">
+      <img src="images/bridesmaidssisters.jpg" style="width:100%">
+      <img src="images/nudedress.jpg" style="width:100%">
+      <img src="images/rings/rosesproposal.jpg" style="width:100%">
+    </div>
+  </div>
+
+
+  <script>
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
+
+  // Declare a loop variable
+  var i;
+
+  // Full-width images
+  function one() {
+      for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "100%";  // IE10
+          elements[i].style.flex = "100%";
+      }
+  }
+
+  // Two images side by side
+  function two() {
+      for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "50%";  // IE10
+          elements[i].style.flex = "50%";
+      }
+  }
+
+  // Four images side by side
+  function four() {
+      for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "25%";  // IE10
+          elements[i].style.flex = "25%";
+      }
+  }
+
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myHeader");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+
+
+
+</body>
+</html>
